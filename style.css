@@ -42,7 +42,7 @@ nav ul li a:hover{
     text-decoration: underline;
 }
 
-.lado-direito {
+.lado-direito{
     background-color: rgb(235, 235, 235);
     float: right;
     margin-top: 140px;
@@ -81,37 +81,49 @@ img:hover {
 h2 {
     margin-top: 18px;
     margin-left: 20px;
-    margin-bottom: 8px;
-    width: 200px;
+    margin-bottom: 20px;
     font-size: 18px;
 }
 
-aside ol, aside ul {
-    margin-left: 40px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+.artc2 ol, .artc2 ul {
     line-height: 21px;
 }
 
-aside ol li, aside ul li{
+.artc2 ol li, .artc2 ul li{
     border-bottom: 1px solid rgba(0, 0, 0, 0.178);
     
 }
 
-aside ol li:hover, aside ul li:hover{
+.artc2 ol li:hover, .artc2 ul li:hover{
     background-color: rgba(116, 116, 116, 0.178);
 }
 
-.lado-esquerdo {
+.lado-esquerdo{
     background-color: rgb(235, 235, 235);
     border: 3px groove rgba(241, 241, 241, 0.671);
     float: left;
     margin-top: 140px;
     margin-left: 150px;
-    width: 600px;
+    width: 500px;
     text-align: justify;
     line-height: 20px;
     padding: 40px 50px;
+}
+
+.artc1, .artc2 {
+    background-color: rgb(235, 235, 235);
+    border: 3px groove rgba(241, 241, 241, 0.671);
+    float: left;
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 500px;
+    text-align: justify;
+    line-height: 20px;
+    padding: 40px 50px;
+}
+
+.artc2 {
+    margin-bottom: 40px;
 }
 
 h3 {
@@ -125,8 +137,7 @@ p {
 
 table {
     text-align: center;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 td {
